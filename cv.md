@@ -28,7 +28,7 @@ function multiply(a, b){
 }
 ```
 
-## CONTACTS
+### CONTACTS
 ***
    * Phone: +7-92 -6047 06 
    * email: simjust@mail.ru
