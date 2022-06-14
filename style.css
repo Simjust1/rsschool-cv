@@ -56,9 +56,7 @@ body {
   color: white;
 }
 
-.main {
 
-}
 
 .main__wrapper {
   max-width: 1440px;
@@ -68,9 +66,7 @@ body {
   justify-content: center;  
 }
 
-.profile {
 
-}
 
 .profile p:first-child {
   font-size: 1.8rem;
@@ -220,4 +216,8 @@ h2 {
 
 .projects {
   text-align: center;  
+}
+
+.codes {
+  text-align: center;
 }
