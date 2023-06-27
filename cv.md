@@ -18,7 +18,7 @@ My work was connected with web-sites and I always wanted become a professional i
    * CSS
 
 ## LANGUAGE LEVEL
-Upper-intermediate
+Advanced
 
 ## CODE EXAMPLE
 ```
