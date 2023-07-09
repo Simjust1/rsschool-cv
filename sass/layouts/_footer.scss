@@ -1,0 +1,26 @@
+.footer__wrapper {
+  background-color: $header-background;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  padding: 10px;
+  column-gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+
+.footer__logo {
+  padding-left: 50px;
+}
+
+.footer__image {
+  width: 100px;
+}
+
+.parag {
+  color: white;
+}

@@ -1,0 +1,19 @@
+body {
+  @include font;
+  //margin: 0 0;
+  //padding: 0 0;
+}
+
+.wrapper {
+  max-width: $width-content-desktop;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: rgb(54, 61, 56) 2px 0 3px;
+}
+
+h1 {
+  text-shadow: rgb(54, 61, 56) 2px 0 3px;
+}
