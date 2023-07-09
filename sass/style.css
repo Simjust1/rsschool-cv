@@ -51,7 +51,7 @@ h1 {
 }
 
 .logo {
-  background-image: url(/images/logo.png);
+  background-image: url(./images/logo.png);
   background-color: #2b1e02;
   height: 50px;
   width: 50px;
@@ -71,7 +71,7 @@ h1 {
   }
 }
 .main__wrapper {
-  background-image: url(/images/mountain.jpg);
+  background-image: url(./images/mountain.jpg);
   width: 100%;
   background-repeat: no-repeat;
 }
