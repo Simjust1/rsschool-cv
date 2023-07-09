@@ -1,0 +1,49 @@
+.header__wrapper {
+   background-color: $header-background;
+   display: flex;
+   justify-content: left;
+   margin-left: 50px;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  column-gap: 25px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: $nav-text;
+}
+
+.header-list__item {
+  list-style: none;
+  color: $nav-text;
+  &:hover {
+    color: #f9fd01;
+    cursor: pointer;
+  }
+}
+
+.logo {
+  background-image: url(/images/logo.png);
+  background-color: $header-circle;
+  height: 50px;
+  width: 50px;
+  margin-left: 100px;
+  clip-path: circle(50%);
+  padding: 0px;
+}
+
+.nav {
+  margin-left: 50px;
+}
+
+@media (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+}

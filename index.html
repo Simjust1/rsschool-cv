@@ -3,10 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sass/style.css">
   <title>Document</title>
 </head>
 <body>
-
+  <header class="header">
+    <div class="wrapper header__wrapper">
+      <div class="logo"></div>
+      <nav class="nav">
+        <ul class="header-list">
+          <li class="header-list__item"><a href="#about">About myself</a></li>
+          <li class="header-list__item"><a href="#skills">Skills</a></li>
+          <li class="header-list__item"><a href="#projects">Projects</a></li>
+          <li class="header-list__item"><a href="#codex">Code example</a></li>
+          <li class="header-list__item"><a href="#educ">Education</a></li>
+          <li class="header-list__item"><a href="#cont">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="wrapper main__wrapper">
+      <section class="greating">
+        <div class="triangle">
+          <div class="main__image">
+            <img src="/images/man.png" class="avatar" alt="Avatarka">
+          </div>
+        </div>
+    </section>
+    <section class="name-title">
+      <h1 class="name">ILYA ERMOLIN</h1>
+      <div>
+        <p id="about" class="aboutme">I`ve worked as an internet-marketing manager for many years.</p>
+        <p id="about" class="aboutme">This year I want to strengthen knowledge of JS, TS and OOP.</p>
+      </div>
+    </section>
+    <section class="row1">
+      <div class="skills">
+        <h2 id="skills">SKILLS</h2>
+        <ul class="skills-list">
+          <li class="skills__item">HTML, CSS, SASS</li>
+          <li class="skills__item">JS</li>
+          <li class="skills__item">GIT</li>
+        </ul>
+      </div>
+      <div class="projects" id="projects">
+        <h2>PROJECTS</h2>
+        <ul class="projects-list">
+          <li class="project__item"><a href="https://simjust1.github.io/cssBayan/cssBayan/index.html" target="_blank">CSS Bayan</a></li>
+          <li class="project__item"><a href="https://simjust1.github.io/virtual-keyboard/" target="_blank">RSS Virtual Keyboard</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="row2">
+      <div class="education">
+        <h2 id="educ">EDUCATION</h2>
+        <p>URGU, the economics faculty</p>
+        <p>English level: upper-intermediate</p>
+      </div>
+      <div class="code">
+        <h2 id="codex">CODE</h2>
+        <pre>
+function calc(a, b, c) {
+return ((a + b) * c);
+}
+        </pre>
+      </div>
+    </section>
+    <section class="contacts" id="cont">
+      <p>My contacts</p>
+      <ul class="contacts-list">
+         <li>discord: simjust1</li>
+         <li>email: simjust@mail.ru</li>
+      </ul>
+    </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <div class="footer__logo">
+        <a href="https://rs.school/js/" target="_blank"><img src="/images/rss.png" class="footer__image" alt="RSS"></a>
+      </div>
+      <ul class="footer-list">
+        <li class="footer__item"><p class="parag">2023</p></li>
+        <li class="footer__item"><a href="https://github.com/Simjust1" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
